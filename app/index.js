@@ -15,7 +15,6 @@ class HomeScreen extends React.Component {
     const { navigate } = this.props.navigation;
     return (
       <View>
-        <Text>Hello, Chat App!</Text>
         <Button
           onPress={() => navigate('Chat')}
           title="Chat with Lucy"
@@ -28,7 +27,7 @@ class HomeScreen extends React.Component {
 class ChatScreen extends React.Component {
   // Nav options can be defined as a function of the screen's props:
   static navigationOptions = ({ navigation }) => ({
-    title: 'Chat with ${navigation.state.params.user}',
+    title: 'Chat with {navigation.state.params.user}',
   });
   render() {
     // The screen's current route is passed in to `props.navigation.state`:
