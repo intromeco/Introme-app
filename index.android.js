@@ -4,6 +4,5 @@
  * @flow
  */
 
-import './App.js'
+import './app/index.js'
 
-// AppRegistry.registerComponent('intromeApp', () => intromeApp);
