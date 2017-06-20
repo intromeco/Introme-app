@@ -7,7 +7,11 @@ const images = {
     facebookSignIn : require('../images/facebookSignIn.png')
   },
   icons: {
-    home: require('../images/logo.png')
+    home: require('../images/logo.png'),
+    camera: require('../images/addPic.png')
+  },
+  background: {
+    small: require('../images/bgSmall.png')
   }
 }
 
