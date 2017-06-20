@@ -15,6 +15,9 @@ const styles = StyleSheet.create ({
     color: '#FFF',
     fontSize: 11,
     marginTop: 6
+  },
+  button: {
+    backgroundColor: #FFF;
   }
 });
 
